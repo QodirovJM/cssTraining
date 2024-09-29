@@ -1,15 +1,22 @@
-p {
+h1, h2 {
+    font-style: italic;
+}
+img {
+    height: 50px;
+    width: 150px;
+}
+#blue{
     color: blue;
 }
-.item {
-    font-size: 30px;
-}
-#demo-selector {
+#red{
     color: red;
 }
-li[value="7"]{
-    color: darkblue;
+#orange{
+    color: orange;
 }
-*{
-    text-align: center;
+#brown{
+    color: brown;
+}
+#darkblue{
+    color: darkblue;
 }

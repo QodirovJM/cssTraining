@@ -1,34 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
-    <title>Селекторы CSS</title>
+    <title>Цвета</title>
     <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-    <!-- !!! В этом коде ничего менять не нужно !!! -->
-    <h1>Селекторы CSS</h1>
-    <h2>Применение CSS к разным частям HTML</h2>
-    
-    <!-- TODO 1: Установите CSS для всех тегов абзацев на "color: blue" -->
-    <p class="item">1. Селектор элемента выбирает элементы на основе их тега HTML.</p>
+    <h1>Цвета</h1>
+    <h2>Изучаем цвета</h2>
+    <h2 class="item-title" id="red">Красный</h2>
+    <img class="color" src="./assets/red-item.png" alt="red" />
 
-    <ol>
-        <!-- TODO 2: Установите CSS для всех элементов с классом "item" на "font-size: 30px" -->
-        <li class="item" value="2">Селекторы классов выбирают элементы на основе значения атрибута class.</li>
+    <h2 class="item-title" id="blue">Синий</h2>
+    <img src="./assets/blue-item.png" alt="blue" />
 
-        <!-- TODO 3: Установите CSS для элемента с идентификатором "demo-selector" на "color: red" -->
-        <li class="item" id="demo-selector" value="3">Селекторы идентификаторов выбирают элементы на основе значения
-            атрибута id.</li>
+    <h2 class="item-title" id="orange">Оранжевый</h2>
+    <img src="./assets/orange-item.png" alt="orange" />
 
-        <!-- TODO 4: Установите CSS для элементов li, у которых атрибут "value" равен "7" на "color: darkblue" -->
-        <li class="item" value="7">Селекторы атрибутов выбирают элементы на основе их атрибутов и значений.</li>
+    <h2 class="item-title" id="brown">Коричневый</h2>
+    <img src="./assets/brown-item.png" alt="brown" />
 
-        <!-- TODO 5: Установите для всех элементов "text-align: center" -->
-        <li class="item" value="9">Универсальный селектор выбирает все элементы.</li>
-    </ol>
+    <h2 class="item-title" id="darkblue">Тёмно-синий</h2>
+    <img src="./assets/dark-blue-item.png" alt="darkblue" />
 </body>
 
 </html>
+
+<!--
+TODO 1. Создайте и подключите внешний CSS-файл.
+TODO 2. При помощи CSS сделайте так чтобы смысл h2 элементов отражался в их внешнем виде.
+TODO 3. При помощи CSS сделайте так чтобы изменить начертание всех заголовков на курсивное. 
+подсказка https://developer.mozilla.org/ru/docs/Web/CSS/font-style
+TODO 4. Внутри CSS-файла (не HTML), чтобы сделать все изображения высотой 50 пикселей и шириной 150 пикселей.
+Подсказки
+https://developer.mozilla.org/ru/docs/Web/HTML/Element/img
+https://developer.mozilla.org/ru/docs/Web/CSS/height
+https://developer.mozilla.org/ru/docs/Web/CSS/width
+
+-->
