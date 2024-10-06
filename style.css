@@ -1,47 +1,16 @@
-body {
-    font-family: Arial, sans-serif;
+body{
+    background-color: #000;
+    margin: 0px;
 }
-
-p {
-    background-color: #ccc;
-}
-
-.task-bold {
-    font-weight: bold;
-}
-
-.task-size {
-    font-size: 20px;
-}
-
-.task-center {
+.meme-container{
+    margin: 30px;
+    padding: 20px;
+    background-color: #fff;
     text-align: center;
-}
-
-.task-monospace {
     font-family: monospace;
+    font-size: 20px;
+    border: 10px solid blue;
 }
-
-.task-color {
-    color: red;
+img{
+    border: 3px solid red;
 }
-
-.task-complex {
-    font-weight: bold;
-    text-align: right;
-    font-size: 18px;
-    color: green;
-}
-
-.task-times-new-roman {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.task-large-blue {
-    font-size: 24px;
-    color: blue;
-}
-
-.task-justify {}
-
-.task-normal {}
